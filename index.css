@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+body {
+    max-width: 350px;
+    max-height: 700px;
+    background-color: rgb(1, 1, 32);
+  margin: 0 10px 0 10px;
+  font-family: "Lexend Deca", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.root {
+    color: rgb(255, 246, 238);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+#key_entered {
+    display: none;
+}
+
+.subtitle input {
+    width: 250px;
+    height: 35px;
+    font-size: 17px;
+    background: rgb(255, 246, 238);
+    color: rgb(1, 1, 32);
+    border: 2px solid rgba(213, 162, 9, 0.813);
+    border-radius: 10px;
+}
+
+.button-add {
+    margin-top: 10px;
+    width: 80px;
+    height: 35px;
+    background-color: rgba(213, 162, 9, 0.813);
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 246, 238);
+}
+
+.button-add:hover {
+    background-color: rgba(116, 87, 3, 0.813);
+}
+
+.alt_subtitle p{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgba(213, 162, 9, 0.813);
+    border:1px solid rgb(255, 246, 238);
+    border-radius: 10px;
+}
+
+.button-change {
+    margin-top: 10px;
+    width: max-content;
+    padding: 5px 15px;
+    height: 35px;
+    background-color: rgba(213, 162, 9, 0.813);
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 246, 238);
+}
+
+.button-change:hover {
+    background-color: rgba(116, 87, 3, 0.813);
+}
